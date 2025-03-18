@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Chat n8n animé",
+    "version": "1.0",
+    "description": "Une extension de chat animée connectée à n8n.",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/chat-1.png",
+            "48": "images/chat.png",
+            "128": "images/team.png"
+        }
+    },
+    "permissions": ["storage", "notifications"],
+    "content_security_policy": "script-src 'self'; object-src 'self';",
+    "icons": {
+        "16": "images/chat-1.png",
+        "48": "images/chat.png",
+        "128": "images/team.png"
+    }
+}
